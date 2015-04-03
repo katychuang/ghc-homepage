@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Language" content="en-gb" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>The Glasgow Haskell Compiler</title>
-<link href="ghc.css" rel="stylesheet" type="text/css" />
+<link href="/css/ghc.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
