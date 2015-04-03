@@ -17,7 +17,7 @@ TD {
 /* -------------- top banner stuff: ---------------- */
 
 TD.bannerleft {
-  background-image: url("images/ghc2.gif");
+  background-image: url("../img/ghc2.gif");
 }
 
 IMG.titleleft {
@@ -29,7 +29,7 @@ IMG.titlespacer {
 }
 
 TD.bannermiddle {
-  background-image: url("images/header_bg2.gif");
+  background-image: url("../img/header_bg2.gif");
 }
 
 TD.bannerright {
@@ -41,11 +41,11 @@ IMG.titleright {
 }
 
 TD.shadowleft {
-  background-image: url("images/green.gif");
+  background-image: url("../img/green.gif");
 }
 
 TD.shadowright {
-  background-image: url("images/shadow.gif");
+  background-image: url("../img/shadow.gif");
 }
 
 /* ------------------------------------------------------------ */
