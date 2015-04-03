@@ -13,8 +13,7 @@ cabal.config
 #*#
 #*.*#
 .#*
-Sigrlami
+Ghc
 _cache
 _site
 ~
-src/content/
