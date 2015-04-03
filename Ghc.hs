@@ -53,10 +53,8 @@ main = hakyll $ do
       route idRoute
       compile $ do
         let tplM = fromFilePath ("tpl/index.tpl")
-            -- tplD = fromFilePath ("tpl/default-index.tpl")
         makeItem ""
-          >>= loadAndApplyTemplate tplM defaultContext 
-          -- >>= loadAndApplyTemplate tplD defaultCtx
+          >>= loadAndApplyTemplate tplM defaultCtx
           >>= relativizeUrls
 
 matchStatic :: Pattern -> Rules ()
@@ -64,3 +62,24 @@ matchStatic pattern = do
   match pattern $ do
     route idRoute
     compile copyFileCompiler
+
+--------------------------------------------------------------------------------
+
+sideCtx :: Context a
+sideCtx = field "side" $ \item -> do
+        tpl <- unsafeCompiler $ readFile "tpl/ghc-std.tpl"
+        return $ tpl
+
+footerCtx :: Context a
+footerCtx = field "footer" $ \item -> do
+          tpl <- unsafeCompiler $ readFile "tpl/ghc-footer.tpl"
+          return $ tpl
+          
+defaultCtx :: Context String
+defaultCtx =
+  mconcat
+    [ sideCtx
+    , footerCtx   
+    , defaultContext  
+    ]
+
