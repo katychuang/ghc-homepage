@@ -1,10 +1,10 @@
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+<!-- <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
   <tr>
     <td nowrap="nowrap" class="bannerleft"><img src="/img/spacer.gif" width="169" height="70" class="titlespacer" alt="" /><img src="/img/title_left.gif" width="32" height="25" class="titleleft" alt="" /></td>
     <td width="100%" class="bannermiddle"><img src="/img/title_right.gif" width="252" height="25" class="titleright" alt="" /></td>
     <td class="bannerright"><img src="/img/symbol2.gif" width="49" height="70" alt="" /></td>
   </tr>    
-</table>
+</table> -->
 
 <table cellpadding="0" cellspacing="0">
   <tr>
@@ -76,7 +76,7 @@
           </tr>
           <tr>
             <td nowrap="nowrap">
-            <a href="https://ghc.haskell.org/trac/ghc/wiki/TeamGHC">The GHC Team</a></td>
+            <a href="http://hackage.haskell.org/trac/ghc/wiki/Contributors">The GHC Team</a></td>
           </tr>
         </table>
         </td>
