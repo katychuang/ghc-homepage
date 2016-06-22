@@ -1,15 +1,15 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
   <tr>
-    <td nowrap="nowrap" class="bannerleft"><img src="images/spacer.gif" width="169" height="70" class="titlespacer" alt="" /><img src="images/title_left.gif" width="32" height="25" class="titleleft" alt="" /></td>
-    <td width="100%" class="bannermiddle"><img src="images/title_right.gif" width="252" height="25" class="titleright" alt="" /></td>
-    <td class="bannerright"><img src="images/symbol2.gif" width="49" height="70" alt="" /></td>
-  </tr>
+    <td nowrap="nowrap" class="bannerleft"><img src="/img/spacer.gif" width="169" height="70" class="titlespacer" alt="" /><img src="/img/title_left.gif" width="32" height="25" class="titleleft" alt="" /></td>
+    <td width="100%" class="bannermiddle"><img src="/img/title_right.gif" width="252" height="25" class="titleright" alt="" /></td>
+    <td class="bannerright"><img src="/img/symbol2.gif" width="49" height="70" alt="" /></td>
+  </tr>    
 </table>
 
 <table cellpadding="0" cellspacing="0">
   <tr>
-      <td class="shadowleft"><img src="images/spacer.gif" height="6" alt="" /></td>
-	  <td width="100%" class="shadowright"><img align="right" src="images/shadright.gif" height="6" alt="" /></td>
+      <td class="shadowleft"><img src="/img/spacer.gif" height="6" alt="" /></td>
+	  <td width="100%" class="shadowright"><img align="right" src="/img/shadright.gif" height="6" alt="" /></td>
   </tr>
   <tr>
     <td nowrap="nowrap" class="wholecontents">
