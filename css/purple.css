@@ -152,15 +152,10 @@ div#content a{
 
 div#footer {
     color: #999999;
-    font-size: 12px;
-    text-align: center;
-    height: 4em;
     background-color: #323232;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     overflow: hidden;
-    padding-top: 1em;
+    padding: 1em;
     font-family: 'Open Sans', sans-serif;
 }
 
